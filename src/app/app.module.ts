@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 
 
@@ -174,8 +175,10 @@ import { A11yModule } from '@angular/cdk/a11y';
     ReactiveFormsModule,
     NgbModule,
     MdbAccordionModule,
+    MatInputModule,
     MdbCarouselModule,
     MdbCheckboxModule,
+    NgbModule,
     MdbCollapseModule,
     MdbDropdownModule,
     MdbFormsModule,
@@ -189,6 +192,7 @@ import { A11yModule } from '@angular/cdk/a11y';
     MdbTooltipModule,
     MdbValidationModule,
     A11yModule,
+    MatToolbarModule,
     
     
 

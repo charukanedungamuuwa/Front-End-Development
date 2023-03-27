@@ -89,3 +89,8 @@
         border-style: solid;
         border-color: chocolate;
     }
+    
+    .bigimg {
+        height: 100%px;
+        width: 1700px;
+    }

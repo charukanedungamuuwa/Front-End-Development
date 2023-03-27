@@ -16,7 +16,7 @@
     width: 164px;
     height: 58px;
     left: 110px;
-    top: 170px;
+    top: 300px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -33,7 +33,7 @@
     font-size: 20px;
     line-height: 24px;
     left: 120px;
-    top: 190px;
+    top: 320px;
     color: rgba(64, 64, 64, 0.72);
 }
 
@@ -545,7 +545,7 @@
     position: absolute;
     width: 38.79px;
     height: 38.79px;
-    left: 186px;
+    left: 276px;
     top: 522px;
     color: #393893;
 }
@@ -554,8 +554,8 @@
     position: absolute;
     width: 17px;
     height: 29px;
-    left: 259px;
-    top: 514px;
+    left: 299px;
+    top: 518px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -604,7 +604,11 @@
 }
 
 .imgradius {
-    border-radius: 60px;
+    position: relative;
+    border-radius: 60%;
+    height: 240px;
+    width: 220px;
+    left: -60px;
 }
 
  :host {
